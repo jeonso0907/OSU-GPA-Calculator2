@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/aa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Result"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btn_re"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:onClick="onClick"
+            android:text="Reset" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OSU GPA Letter Scale"
+            android:layout_gravity="center"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="A" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="4.000" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="A-" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="3.700" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="B+" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="3.300" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="B" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="3.000" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="B-" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="2.7" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="C+" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="2.3" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="C" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="2.000" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="C-" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="1.700" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="D+" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="1.300" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="D" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="1.000" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
